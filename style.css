@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_Area {
+  background-color: rgba(0, 63, 79, 0.12);
+  padding: 30px 0;
+}
+.container {
+  width: 98%;
+  margin: 0 auto;
+}
+.header_text {
+  font-size: 22px;
+  color: #0066bf;
+  text-align: center;
+}
+.grid_wrapper {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.item {
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  padding: 12px 6px;
+}
+.item .icon_area {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #fdca10;
+  box-shadow: -2px 8px 50px -11px rgba(232, 194, 5, 0.64);
+  -webkit-box-shadow: -2px 8px 50px -11px rgba(232, 194, 5, 0.64);
+  -moz-box-shadow: -2px 8px 50px -11px rgba(232, 194, 5, 0.64);
+}
+._icon {
+  width: 40%;
+}
+.item article {
+  text-align: center;
+  margin-top: 14px;
+}
+.card_title {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #424242;
+}
+.card_description {
+  display: none;
+  color: #444444;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 600px) {
+  .grid_wrapper {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .header_text {
+    font-size: 28px;
+  }
+  .card_title {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .item .icon_area {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media only screen and (min-width: 976px) {
+  .container {
+    width: 80%;
+  }
+  .header_text {
+    font-size: 36px;
+  }
+  .card_title {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .item article {
+    padding: 0px 10px;
+  }
+  .card_description {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .grid_wrapper {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 40px;
+  }
+  .item .icon_area {
+    height: 100px;
+    width: 100px;
+  }
+  .header_text {
+    font-size: 48px;
+  }
+  .card_description {
+    font-size: 16px;
+  }
+}
