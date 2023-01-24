@@ -5,7 +5,8 @@
 }
 
 .main_Area {
-  background-color: rgba(0, 63, 79, 0.12);
+  /* background-color: rgba(0, 63, 79, 0.12); */
+  background-color: #D2D9DD;
   padding: 30px 0;
 }
 .container {
@@ -37,10 +38,6 @@
   align-items: center;
   height: 60px;
   width: 60px;
-  background-color: #fdca10;
-  box-shadow: -2px 8px 50px -11px rgba(43, 78, 145, 0.64);
-  -webkit-box-shadow: -2px 8px 50px -11px rgba(143, 150, 209, 0.64);
-  -moz-box-shadow: -2px 8px 50px -11px rgba(25, 26, 92, 0.64);
 }
 ._icon {
   width: 100%;
