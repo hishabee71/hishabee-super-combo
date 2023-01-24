@@ -31,19 +31,19 @@
 }
 .item .icon_area {
   display: flex;
+  overflow: hidden;
   justify-self: center;
   justify-content: center;
   align-items: center;
   height: 60px;
   width: 60px;
-  border-radius: 100%;
   background-color: #fdca10;
-  box-shadow: -2px 8px 50px -11px rgba(232, 194, 5, 0.64);
-  -webkit-box-shadow: -2px 8px 50px -11px rgba(232, 194, 5, 0.64);
-  -moz-box-shadow: -2px 8px 50px -11px rgba(232, 194, 5, 0.64);
+  box-shadow: -2px 8px 50px -11px rgba(43, 78, 145, 0.64);
+  -webkit-box-shadow: -2px 8px 50px -11px rgba(143, 150, 209, 0.64);
+  -moz-box-shadow: -2px 8px 50px -11px rgba(25, 26, 92, 0.64);
 }
 ._icon {
-  width: 40%;
+  width: 100%;
 }
 .item article {
   text-align: center;
